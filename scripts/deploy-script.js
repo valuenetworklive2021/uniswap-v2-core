@@ -1,6 +1,5 @@
 const fs = require('fs');
 const hre = require('hardhat');
-const { expect } = require('chai');
 
 
 
@@ -35,13 +34,7 @@ async function deployValueswapV2Factory() {
   await instance.deployed();
 
   updateDeployedContractInfo(name, instance, arguments);
-  /*
-  await instance.setFeeTo(feeTo);
-  expect(await instance.feeTo()).to.equal(feeTo);
 
-  await instance.setFeeToSetter(feeToSetter);
-  expect(await instance.feeToSetter()).to.equal(feeToSetter);
-  */
   return { name, arguments, instance, factory };
 }
 
