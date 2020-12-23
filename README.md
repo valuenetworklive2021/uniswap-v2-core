@@ -1,11 +1,10 @@
-# Uniswap V2
+# Valueswap V2
 
-[![Actions Status](https://github.com/Uniswap/uniswap-v2-core/workflows/CI/badge.svg)](https://github.com/Uniswap/uniswap-v2-core/actions)
-[![Version](https://img.shields.io/npm/v/@uniswap/v2-core)](https://www.npmjs.com/package/@uniswap/v2-core)
+[![Version](https://img.shields.io/npm/v/@valueswap/v2-core)](https://www.npmjs.com/package/@valueswap/v2-core)
 
-In-depth documentation on Uniswap V2 is available at [uniswap.org](https://uniswap.org/docs).
+In-depth documentation on Valueswap V2 is available at [site.name](https://site.name/docs).
 
-The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@uniswap/v2-core@latest/).
+The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@valueswap/v2-core@latest/).
 
 # Local Development
 

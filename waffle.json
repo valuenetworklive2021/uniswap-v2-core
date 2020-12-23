@@ -15,7 +15,6 @@
         "": ["ast"]
       }
     },
-    "evmVersion": "istanbul",
     "optimizer": {
       "enabled": true,
       "runs": 999999
