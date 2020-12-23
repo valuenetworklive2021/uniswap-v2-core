@@ -25,7 +25,7 @@ function checkDir() {
 
 async function deployValueswapV2Factory() {
   const name = 'ValueswapV2Factory';
-  const accounts = await ethers.getSigners(); // ? feeToSetter contract
+  const accounts = await ethers.getSigners();
   const arguments = [accounts[0].address];
   console.log('Deploying contract "%s"!', name);
 
@@ -34,7 +34,13 @@ async function deployValueswapV2Factory() {
   await instance.deployed();
 
   updateDeployedContractInfo(name, instance, arguments);
+  /*
+  await instance.setFeeTo(feeTo);
+  expect(await instance.feeTo()).to.equal(feeTo);
 
+  await instance.setFeeToSetter(feeToSetter);
+  expect(await instance.feeToSetter()).to.equal(feeToSetter);
+  */
   return { name, arguments, instance, factory };
 }
 
