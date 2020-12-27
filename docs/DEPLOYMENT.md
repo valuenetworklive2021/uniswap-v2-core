@@ -49,3 +49,10 @@ yarn verify ropsten ValueswapV2Factory
 yarn deploy mainnet
 yarn verify mainnet ValueswapV2Factory
 ```
+
+### FACTORY_ADDRESS
+Replace in `FACTORY_ADDRESS` 
+ - for `valueswap-sdk/src/constants.ts`.
+ - for `valueswap-v2-periphery/migrations/2_deploy_router.js`.
+ - for `valueswap-info/src/constants/index.js`.
+ - for `valueswap-v2-subgraph/src/mappings/helpers.ts`.
