@@ -21,7 +21,7 @@
     "predeploy": "yarn compile",
     "deploy": "truffle migrations --network",
     "verify": "truffle run verify --network",
-    "prepublishOnly-": "yarn test",
+    "prepublishOnly": "yarn test",
     "ganache-cli": "ganache-cli"
   },
   "files": [
