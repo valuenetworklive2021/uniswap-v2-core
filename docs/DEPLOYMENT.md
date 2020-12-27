@@ -38,10 +38,6 @@ yarn verify <network> ValueswapV2Factory
 yarn deploy ropsten
 yarn verify ropsten ValueswapV2Factory
 ```
-```bash
-yarn deploy ropsten
-yarn verify ropsten ValueswapV2Factory
-```
 
 
 ### Deployment for Mainnetwork
