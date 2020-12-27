@@ -1,6 +1,6 @@
 {
   "name": "@valueswap/v2-core",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "🎛 Core contracts for the ValueswapV2 protocol",
   "author": "Value Network",
   "license": "GPL-3.0-or-later",
@@ -11,16 +11,18 @@
   "scripts": {
     "lint": "yarn prettier ./test/*.ts --check",
     "lint:fix": "yarn prettier ./test/*.ts --write",
-    "clean": "npx hardhat clean && rimraf ./build/",
-    "copy": "node ./scripts/copy-contracts.js",
+    "get-hash": "truffle exec scripts/get-init-code-hash.js",
+    "clean": "rimraf ./build/",
     "precompile": "yarn clean",
-    "compile": "npx hardhat compile",
-    "postcompile": "yarn copy",
-    "deploy": "node ./scripts/deploy.js",
-    "verify": "node ./scripts/verify.js",
+    "compile": "truffle compile",
+    "postcompile": "yarn get-hash",
     "pretest": "yarn compile",
-    "test": "mocha",
-    "prepublishOnly-": "yarn test"
+    "test": "truffle test",
+    "predeploy": "yarn compile",
+    "deploy": "truffle migrations --network",
+    "verify": "truffle run verify --network",
+    "prepublishOnly-": "yarn test",
+    "ganache-cli": "ganache-cli"
   },
   "files": [
     "contracts",
@@ -30,24 +32,19 @@
     "node": ">=10"
   },
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.0",
-    "@nomiclabs/hardhat-etherscan": "^2.1.0",
-    "@nomiclabs/hardhat-waffle": "^2.0.0",
-    "@types/chai": "^4.2.6",
-    "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
-    "copyfiles": "^2.4.1",
-    "del-cli": "^3.0.1",
-    "ethereum-waffle": "^3.0.0",
+    "ethereum-waffle": "^3.2.1",
     "ethereumjs-util": "^6.2.0",
     "ethers": "^5.0.0",
-    "hardhat": "^2.0.6",
-    "mocha": "^6.2.2",
+    "ganache-cli": "^6.12.1",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "solc": "0.5.16",
+    "truffle-plugin-verify": "^0.5.4",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.3",
+    "@truffle/hdwallet-provider": "^1.2.1",
+    "truffle": "^5.1.59"
   },
   "keywords": [
     "ethereum",
