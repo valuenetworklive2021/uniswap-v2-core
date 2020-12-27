@@ -41,6 +41,7 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "solc": "0.5.16",
+    "truffle": "^5.1.59",
     "truffle-plugin-verify": "^0.5.4",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
@@ -51,8 +52,5 @@
     "v2",
     "core",
     "valueswap v2"
-  ],
-  "dependencies": {
-    "truffle": "^5.1.59"
-  }
+  ]
 }
