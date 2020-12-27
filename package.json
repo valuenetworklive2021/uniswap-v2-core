@@ -32,6 +32,7 @@
     "node": ">=10"
   },
   "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.1",
     "chai": "^4.2.0",
     "ethereum-waffle": "^3.2.1",
     "ethereumjs-util": "^6.2.0",
@@ -42,9 +43,7 @@
     "solc": "0.5.16",
     "truffle-plugin-verify": "^0.5.4",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3",
-    "@truffle/hdwallet-provider": "^1.2.1",
-    "truffle": "^5.1.59"
+    "typescript": "^3.7.3"
   },
   "keywords": [
     "ethereum",
@@ -52,5 +51,8 @@
     "v2",
     "core",
     "valueswap v2"
-  ]
+  ],
+  "dependencies": {
+    "truffle": "^5.1.59"
+  }
 }
