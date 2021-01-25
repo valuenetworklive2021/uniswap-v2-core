@@ -1,3 +1,4 @@
+pragma solidity ^0.5.16;
 // File: contracts/interfaces/IValueswapV2Factory.sol
 
 //pragma solidity >=0.5.0;
