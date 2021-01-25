@@ -22,7 +22,10 @@
     "deploy": "truffle migrations --network",
     "verify": "truffle run verify --network",
     "prepublishOnly": "yarn test",
-    "ganache-cli": "ganache-cli"
+    "ganache-cli": "ganache-cli",
+    "concat": "yarn run concat:all",
+    "concat:all": "yarn run concat:ValueswapV2Factory",
+    "concat:ValueswapV2Factory": "truffle-flattener contracts/ValueswapV2Factory.sol > contracts-monofiles/ValueswapV2Factory.sol"
   },
   "files": [
     "contracts",
@@ -42,6 +45,7 @@
     "rimraf": "^3.0.0",
     "solc": "0.5.16",
     "truffle": "^5.1.59",
+    "truffle-flattener": "^1.5.0",
     "truffle-plugin-verify": "^0.5.4",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
