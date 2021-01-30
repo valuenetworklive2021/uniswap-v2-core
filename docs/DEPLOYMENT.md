@@ -2,9 +2,9 @@
 
 ## ropsten
 - ValueswapV2Pair bytecode hash (Look for INIT_CODE_HASH):
-- bd180ae29cf24eb2aeb0c652457a18bf292f7aaa4661545fb91e6eefcffe1a24
+- f27fee3fc000c2148077e3c1de2bfc88ca0e8881a5c9fbb18615dc16f0cc1b75
   - old = ?
-- ValueswapV2Factory 0xF8CC7061b9286b16dF5909BF7969b50209A551E1 block 9561851=>9561850
+- ValueswapV2Factory 0xa8d200eaB94c77a98077c8e2631B2F2D00F2c1E7  block 9566772=>9566771, old: ?
   - old = ?
 
 ## Install Dependencies

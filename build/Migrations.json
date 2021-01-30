@@ -47,15 +47,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/ivannikov/work/botan2475/backups/1611587407/valueswap-v2-core/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"/Users/ivannikov/work/botan2475/backups/1611587407/valueswap-v2-core/contracts/Migrations.sol\":{\"keccak256\":\"0x7eaedbb1a3e4e0f585d9063393872f88ded247ca3c3c3c8492ea18e7629a6411\",\"urls\":[\"bzz-raw://4a3eb571cee910095df65a06a1c1d3f89187c72a3c184ef87a7538d9aa39ad07\",\"dweb:/ipfs/QmdqR3vrSSGR49qFGZr49Mb39z7dgD6tSzEDoaqtM31o61\"]}},\"version\":1}",
-  "bytecode": "0x6080604052600080546001600160a01b0319163317905534801561002257600080fd5b506101af806100326000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610060578063fdacd57614610091575b600080fd5b61004e6100b0565b60408051918252519081900360200190f35b6100686100b6565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b6100ae600480360360208110156100a757600080fd5b50356100d2565b005b60015481565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60005473ffffffffffffffffffffffffffffffffffffffff163314610142576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806101486033913960400191505060405180910390fd5b60015556fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a265627a7a7231582080bc297e4be5da6bb1c9c337e82473045e29cc17ddda11752b9efdc663d75b6164736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610060578063fdacd57614610091575b600080fd5b61004e6100b0565b60408051918252519081900360200190f35b6100686100b6565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b6100ae600480360360208110156100a757600080fd5b50356100d2565b005b60015481565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60005473ffffffffffffffffffffffffffffffffffffffff163314610142576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806101486033913960400191505060405180910390fd5b60015556fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a265627a7a7231582080bc297e4be5da6bb1c9c337e82473045e29cc17ddda11752b9efdc663d75b6164736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/second/Documents/work/valueswap-v2-core/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"/Users/second/Documents/work/valueswap-v2-core/contracts/Migrations.sol\":{\"keccak256\":\"0x7eaedbb1a3e4e0f585d9063393872f88ded247ca3c3c3c8492ea18e7629a6411\",\"urls\":[\"bzz-raw://4a3eb571cee910095df65a06a1c1d3f89187c72a3c184ef87a7538d9aa39ad07\",\"dweb:/ipfs/QmdqR3vrSSGR49qFGZr49Mb39z7dgD6tSzEDoaqtM31o61\"]}},\"version\":1}",
+  "bytecode": "0x6080604052600080546001600160a01b0319163317905534801561002257600080fd5b506101af806100326000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610060578063fdacd57614610091575b600080fd5b61004e6100b0565b60408051918252519081900360200190f35b6100686100b6565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b6100ae600480360360208110156100a757600080fd5b50356100d2565b005b60015481565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60005473ffffffffffffffffffffffffffffffffffffffff163314610142576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806101486033913960400191505060405180910390fd5b60015556fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a265627a7a723158200cb958e046f7616bb88fc189ed85b403fd51880d1ac3ab01013e9cf96459368a64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610060578063fdacd57614610091575b600080fd5b61004e6100b0565b60408051918252519081900360200190f35b6100686100b6565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b6100ae600480360360208110156100a757600080fd5b50356100d2565b005b60015481565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60005473ffffffffffffffffffffffffffffffffffffffff163314610142576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806101486033913960400191505060405180910390fd5b60015556fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a265627a7a723158200cb958e046f7616bb88fc189ed85b403fd51880d1ac3ab01013e9cf96459368a64736f6c63430005100032",
   "sourceMap": "66:352:0:-;;;90:33;;;-1:-1:-1;;;;;;90:33:0;113:10;90:33;;;66:352;5:2:-1;;;;30:1;27;20:12;5:2;66:352:0;;;;;;;",
   "deployedSourceMap": "66:352:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;:::i;:::-;;;;;;;;;;;;;;;;90:33;;;:::i;:::-;;;;;;;;;;;;;;;;;;;313:103;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;313:103:0;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;;;;:::o;313:103::-;225:5;;;;211:10;:19;196:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;375:24;:36;313:103::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/Users/ivannikov/work/botan2475/backups/1611587407/valueswap-v2-core/contracts/Migrations.sol",
+  "sourcePath": "/Users/second/Documents/work/valueswap-v2-core/contracts/Migrations.sol",
   "ast": {
-    "absolutePath": "/Users/ivannikov/work/botan2475/backups/1611587407/valueswap-v2-core/contracts/Migrations.sol",
+    "absolutePath": "/Users/second/Documents/work/valueswap-v2-core/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         32
@@ -460,7 +460,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/ivannikov/work/botan2475/backups/1611587407/valueswap-v2-core/contracts/Migrations.sol",
+      "absolutePath": "/Users/second/Documents/work/valueswap-v2-core/contracts/Migrations.sol",
       "exportedSymbols": {
         "Migrations": [
           32
@@ -911,9 +911,17 @@
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "3": {
+      "events": {},
+      "links": {},
+      "address": "0x3F71Fc116FE8538f346F0b3DA9Aa09155Df1D282",
+      "transactionHash": "0xae69b665120371c302f15ae71d92d158ceeb268ddd8eccddce7680910a605496"
+    }
+  },
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-29T20:05:03.400Z",
+  "updatedAt": "2021-01-30T15:31:45.544Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },

@@ -1,6 +1,6 @@
 {
   "name": "@valueswap/v2-core",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "🎛 Core contracts for the ValueswapV2 protocol",
   "author": {
     "name": "Value Network",
