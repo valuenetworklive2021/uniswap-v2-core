@@ -4,7 +4,7 @@
 - ValueswapV2Pair bytecode hash (Look for INIT_CODE_HASH):
 - f27fee3fc000c2148077e3c1de2bfc88ca0e8881a5c9fbb18615dc16f0cc1b75
   - old = ?
-- ValueswapV2Factory 0xa8d200eaB94c77a98077c8e2631B2F2D00F2c1E7  block 9566772=>9566771, old: ?
+- ValueswapV2Factory 0xfdaC360e32E9c90A654914073D6f42f238531B6f  block 11759913=>11759912, old: ?
   - old = ?
 
 ## Install Dependencies
